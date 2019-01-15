@@ -96,36 +96,3 @@ function slider(dom){
   this.addTouch();
   
 }
-
-// this.transitionEnd=(callback)=>{// 在过渡结束时执行回掉函数
-//   this.sliderGroup.addEventListener('transitionend',()=>{
-//     callback&&callback();
-//   })
-//    this.sliderGroup.addEventListener('webkitTransitionEnd',()=>{
-//     callback&&callback();
-//   })
-// }
-
-// this.addTransition=()=>{
-//   this.sliderGroup.sliderGroup.style.transition = "all .9s ease-in-out";// 过渡时间必须比定时器的时间短
-//   this.sliderGroup.style.webkitTransition = "all .9s ease-in-out";
-// }
-
-// this.removeTransition=()=>{
-//   this.sliderGroup.sliderGroup.style.transition = "";
-//   this.sliderGroup.style.webkitTransition = "";
-// }
-
-// this.setTranslateX=(translateX)=>{
-//   console.log(this)
-//   this.sliderGroup.style.transform = "translateX(" + translateX + "px)";
-//   this.sliderGroup.style.webkitTransform = "translateX(" + translateX + "px)";
-// }
-
-// this.slideLoop=()=>{
-//   this.timer=setInterval(()=>{
-//     this.currentIndex++;
-//     this.addTransition();
-//     this.setTranslateX(-this.currentIndex*this.sliderWidth);
-//   },1000)
-// }
